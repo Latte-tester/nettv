@@ -21,7 +21,7 @@ jobs:
       - name: Extract Turkey Channels
         run: |
           echo '#EXTM3U' > nettv-tr.m3u
-          grep -A 1 -i 'group-title="TURKEY"' original.m3u | grep -v -- "^--$" >> nettv-tr.m3u
+          grep -A 1 -i 'group-title="TURKEY"' oynat/original.m3u | grep -v -- "^--$" >> oynat/nettv-tr.m3u
 
       - name: Commit and Push Changes
         run: |
