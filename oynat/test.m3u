@@ -3,3 +3,5 @@
 #EXTVLCOPT:http-referrer=https://vavoo.to/
 #EXTVLCOPT:http-user-agent=VAVOO/1.0
 https://vavoo.to/play/2368422760/index.m3u8
+#EXTINF:-1 tvg-id="4UTV" tvg-name="4U TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",4U TV
+https://hls.4utv.live/hls/stream.m3u8
