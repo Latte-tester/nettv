@@ -2,7 +2,7 @@ name: Sadece TR
 
 on:
   schedule:
-    - cron: '0 */2 * * *'  # Her 2 saatte bir çalışır
+    - cron: '0 */12 * * *'  # Her 2 saatte bir çalışır
   workflow_dispatch:  # Manuel çalıştırma için
 
 permissions:
